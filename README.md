@@ -139,7 +139,7 @@ The program creates `weather_data.csv` automatically if it does not already exis
 
 ## Important Notes and Limitations
 
-- The water-level, raindrop, and LDR values are currently **raw sensor readings**, not calibrated measurements in centimetres, rainfall amount, or lux.
+- The water-level, raindrop, and LDR values are currently **raw sensor readings**, and have to be calibrated accordingly.
 - Sensor readings can vary depending on the module, wiring, placement, and surrounding conditions.
 - The Gemini output is a **trend-based interpretation of the stored readings**, not a reliable meteorological forecast. Actual forecasting requires suitable weather data and forecasting methods.
 - The AI analysis uses only the latest 10 saved records, so its usefulness depends on having meaningful and representative readings.
@@ -147,8 +147,6 @@ The program creates `weather_data.csv` automatically if it does not already exis
 
 ## Possible Future Improvements
 
-- Calibrate the water-level sensor to display measurements in meaningful units.
-- Calibrate the raindrop sensor and LDR for more interpretable readings.
 - Add automatic data collection at configurable intervals.
 - Build a graphical dashboard for live readings and historical trends.
 - Add alerts when sensor readings cross user-defined thresholds.
