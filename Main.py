@@ -12,7 +12,7 @@ PORT = "COM3"
 
 FILE = "weather_data.csv"
 
-API_KEY = "PASTE_YOUR_GEMINI_API_KEY_HERE"
+API_KEY = "GEMINI_API_KEY"
 MODEL = "gemini-3.8-flash"
 
 file = open(FILE, "w", newline="")
